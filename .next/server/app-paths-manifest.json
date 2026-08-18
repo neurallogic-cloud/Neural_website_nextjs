@@ -1,0 +1,9 @@
+{
+  "/(main)/page": "app/(main)/page.js",
+  "/(main)/services/page": "app/(main)/services/page.js",
+  "/(main)/portfolio/page": "app/(main)/portfolio/page.js",
+  "/(main)/blog/page": "app/(main)/blog/page.js",
+  "/(main)/pricing/page": "app/(main)/pricing/page.js",
+  "/(main)/about/page": "app/(main)/about/page.js",
+  "/(main)/careers/page": "app/(main)/careers/page.js"
+}
