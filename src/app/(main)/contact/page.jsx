@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
-import { Mail, MapPin, Phone, Send, MessageSquare } from 'lucide-react';
+import { Mail, MapPin, Phone, Send, MessageSquare, MessageCircle } from 'lucide-react';
 import { supabase } from '../../../services/supabase';
 
 const fadeUp = {
@@ -44,9 +44,10 @@ export default function Contact() {
   };
 
   const contactInfo = [
-    { icon: <Mail size={20} />, label: 'Email', value: 'hello@neurallogic.com', gradient: 'from-violet-500 to-purple-600' },
-    { icon: <Phone size={20} />, label: 'Phone', value: '+1 (555) 123-4567', gradient: 'from-cyan-400 to-blue-500' },
-    { icon: <MapPin size={20} />, label: 'Location', value: 'San Francisco, CA', gradient: 'from-pink-500 to-rose-500' },
+    { icon: <Mail size={20} />, label: 'Email', value: 'neurallogicofficial@gmail.com', gradient: 'from-violet-500 to-purple-600' },
+    { icon: <Phone size={20} />, label: 'Phone', value: '+91 8918327205', gradient: 'from-cyan-400 to-blue-500' },
+    { icon: <MessageCircle size={20} />, label: 'Whatsapp', value: '+91 8158021116', gradient: 'from-cyan-400 to-blue-500' },
+    { icon: <MapPin size={20} />, label: 'Location', value: 'Pachasbetia, Belda, Paschim Medinipur, West Bengal - 721424', gradient: 'from-pink-500 to-rose-500' },
   ];
 
   return (
@@ -98,7 +99,7 @@ export default function Contact() {
             {/* Map */}
             <motion.div variants={fadeUp} className="bento-card overflow-hidden h-48 md:h-64">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d100939.98555098464!2d-122.50764019999999!3d37.757815!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80859a6d00690021%3A0x4a501367f076adff!2sSan%20Francisco%2C%20CA!5e0!3m2!1sen!2sus!4v1689100000000!5m2!1sen!2sus"
+                src="https://maps.google.com/maps?q=22.0662654,87.3970899&t=k&z=18&output=embed"
                 width="100%"
                 height="100%"
                 style={{ border: 0, filter: 'grayscale(1) contrast(1.1) opacity(0.7)' }}
