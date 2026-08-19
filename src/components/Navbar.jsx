@@ -49,7 +49,7 @@ export default function Navbar() {
               { to: '/', label: 'Home' },
               { to: '/services', label: 'Services' },
               { to: '/portfolio', label: 'Work' },
-              { to: '/pricing', label: 'Pricing' },
+              // { to: '/pricing', label: 'Pricing' },
               { to: '/blog', label: 'Blog' },
             ].map(({ to, label }) => {
               const isActive = pathname === to || (to !== '/' && pathname.startsWith(to));
@@ -190,7 +190,7 @@ export default function Navbar() {
                 { to: '/about', label: 'About Us' },
                 { to: '/services', label: 'Services' },
                 { to: '/portfolio', label: 'Work' },
-                { to: '/pricing', label: 'Pricing' },
+                // { to: '/pricing', label: 'Pricing' },
                 { to: '/blog', label: 'Blog' },
                 { to: '/careers', label: 'Careers' },
                 { to: '/contact', label: 'Contact' },

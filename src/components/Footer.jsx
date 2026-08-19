@@ -25,6 +25,7 @@ export default function Footer() {
       { label: 'API Reference', to: '#' },
       { label: 'Status Page', to: '#' },
       { label: 'Support', to: '/contact' },
+      { label: 'Admin Login', to: '/admin' },
     ],
   };
 

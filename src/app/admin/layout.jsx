@@ -4,7 +4,7 @@ import React, { useEffect, useState } from 'react';
 import Link from 'next/link';
 import { useRouter, usePathname } from 'next/navigation';
 import { supabase } from '../../services/supabase';
-import { LayoutDashboard, FileText, LogOut, Loader2 } from 'lucide-react';
+import { LayoutDashboard, FileText, LogOut, Loader2, MessageSquare, Briefcase } from 'lucide-react';
 import { cn } from '../../utils/cn';
 
 export default function AdminLayout({ children }) {
@@ -52,6 +52,8 @@ export default function AdminLayout({ children }) {
   const links = [
     { name: 'Dashboard', path: '/admin', icon: <LayoutDashboard size={20} /> },
     { name: 'Blogs', path: '/admin/blogs', icon: <FileText size={20} /> },
+    { name: 'Contacts', path: '/admin/contacts', icon: <MessageSquare size={20} /> },
+    { name: 'Careers', path: '/admin/careers', icon: <Briefcase size={20} /> },
   ];
 
   return (

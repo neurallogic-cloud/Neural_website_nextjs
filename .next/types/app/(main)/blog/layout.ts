@@ -1,4 +1,4 @@
-// File: D:\Kaushik\Neurallogic\src\app\(main)\blog\layout.jsx
+// File: D:\Neurallogic\Neural_website_nextjs\src\app\(main)\blog\layout.jsx
 import * as entry from '../../../../../src/app/(main)/blog/layout.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
-import { Mail, MapPin, Phone, Send, MessageSquare } from 'lucide-react';
+import { Mail, MapPin, Phone, Send, MessageSquare, MessageCircle } from 'lucide-react';
 import { supabase } from '../../../services/supabase';
 
 const fadeUp = {
@@ -44,9 +44,10 @@ export default function Contact() {
   };
 
   const contactInfo = [
-    { icon: <Mail size={20} />, label: 'Email', value: 'hello@neurallogic.com', gradient: 'from-violet-500 to-purple-600' },
-    { icon: <Phone size={20} />, label: 'Phone', value: '+1 (555) 123-4567', gradient: 'from-cyan-400 to-blue-500' },
-    { icon: <MapPin size={20} />, label: 'Location', value: 'San Francisco, CA', gradient: 'from-pink-500 to-rose-500' },
+    { icon: <Mail size={20} />, label: 'Email', value: 'neurallogicofficial@gmail.com', gradient: 'from-violet-500 to-purple-600' },
+    { icon: <Phone size={20} />, label: 'Phone', value: '+91 8918327205', gradient: 'from-cyan-400 to-blue-500' },
+    { icon: <MessageCircle size={20} />, label: 'Whatsapp', value: '+91 8158021116', gradient: 'from-cyan-400 to-blue-500' },
+    { icon: <MapPin size={20} />, label: 'Location', value: 'Village - Pachasbetia, City - Belda, District - Paschim Medinipur, State - West Bengal, PIN - 721401', gradient: 'from-pink-500 to-rose-500' },
   ];
 
   return (
